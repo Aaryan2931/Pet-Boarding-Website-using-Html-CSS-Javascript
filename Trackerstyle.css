@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins",sans-serif ;
+    margin: 20px;
+  }
+
+  .Main{
+    position: relative;
+    width: 100%; /* Ensure the container takes full width */
+    height: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+  .heading{
+    padding-top: 6rem;
+  }
+  .background-img {
+    position: absolute;
+    display: inline-block;
+    width:100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+  form {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .form-info{
+    position: relative;
+  }
+  
+  label {
+    /* font-weight: bold; */
+    margin: 1rem;
+    font-size: 2rem;
+  }
+  
+  input[type="text"] {
+    width: 400px;
+    margin: 1rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  button {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #2297ed;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  
+  button:hover {
+    background-color: #1d69a3;
+  }
+  
+  #dogInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    background-color: #9ed2f8;
+    border: 3px solid black;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 600px;
+    transform: translateX(85%);
+  }
+  
+  #dogInfo h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #dogInfo img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #dogInfo p {
+    margin-bottom: 5px;
+    
+  }
+  
+  #dogInfo p:first-child {
+    margin-top: 1rem;
+  }
+  
+  #dogInfo p:last-child {
+    margin-bottom: 0;
+  }
+  
+
+ /* Media Queries */
+@media screen and (max-width: 768px) {
+  .heading {
+    justify-content: center;
+    text-align: center;
+      font-size: 3rem;
+  }
+  
+
+  input[type="text"] {
+      width: 300px;
+  }
+  
+  button {
+      font-size: 1.5rem;
+  }
+  
+  #dogInfo {
+    margin: 2rem;
+      font-size: 1.2rem;
+      transform: translateX(10%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+      font-size: 2rem;
+  }
+  
+  .heading {
+      padding-top: 3rem;
+  }
+  
+  input[type="text"] {
+      width: 200px;
+  }
+  
+  button {
+      font-size: 1rem;
+  }
+  
+  #dogInfo {
+      font-size: 1rem;
+      transform: translateX(10%);
+  }
+}

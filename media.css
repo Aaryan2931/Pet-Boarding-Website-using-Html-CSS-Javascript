@@ -1,0 +1,152 @@
+/* @media only screen and (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1 {
+        width: 80%; /* Adjust the width of the cards as needed 
+        margin-bottom: 20px;
+    }
+    .card2 {
+        width: 80%; /* Adjust the width of the cards as needed 
+        margin-bottom: 20px;
+    }
+    .card3 {
+        width: 80%; /* Adjust the width of the cards as needed 
+        margin-bottom: 20px;
+    }
+} */
+
+@media screen and (max-width: 1400px){
+    #profile{
+       height: 83vh;
+       margin-bottom: 6rem;
+    }
+    .about-containers{
+       flex-wrap: wrap;
+    }
+ }
+ @media screen and (max-width: 1200px){
+    #desktop-nav{
+     display: none;
+    } 
+    #hamburger-nav{
+     display: flex;
+    } 
+    .arrow{
+       display: none;
+    }
+ }
+ 
+ 
+ @media screen and (max-width: 600px){
+    .top-banner{
+        width: auto;
+
+    }
+
+    #hamburger-nav{
+      display: flex;
+      justify-content: space-between
+     } 
+
+
+     #about{
+      justify-content: space-evenly;
+     }
+    
+     .back-img {
+      width: 100%; /* Adjust width to fit container */
+      height: auto; /* Let the height adjust proportionally */
+      display: flex;
+  }
+
+    .right{
+      width: 100%; /* Adjust width to fit container */
+      height: auto; /* Let the height adjust proportionally */
+      display: flex;
+    }
+
+
+    #contact, footer{
+       height: 40vh;
+    }
+ 
+ 
+    footer nav{
+       height: fit-content;
+       margin-bottom: 2rem;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 50%; /* Adjust the width of the cards to fit the screen */
+        height: auto;
+        box-sizing: border-box;
+
+    }
+
+    #socials-container{
+      flex-direction: column;
+      height: 1rem;
+      margin: 0.5rem;
+    }
+
+ 
+    h1{
+      margin-top: -5.5rem;
+    font-size: 2rem;
+        
+    }
+
+    p{
+      font-size: 1rem;
+      
+  }
+ 
+    .contact-info-container{
+    margin: 0;
+    }
+ 
+    .contact-info-container p, .nav-links li a{
+       font-size: 1rem;
+    }
+ 
+    .experience-sub-title{
+       font-size: 1.25rem;
+    }
+ 
+ 
+    .nav-links{
+       flex-direction: column;
+       gap: 0.5em;
+       text-align: center;
+    }
+ 
+    .section--pic-container{
+       width: auto;
+       height: 46vh;
+       justify-content: center;
+    }
+ 
+    .section--text--p2{
+       font-size: 1.25rem;
+    }
+ 
+    .title{
+       font-size: 2rem;
+    }
+ 
+    .text-container{
+       text-align: justify;
+    }
+ }
+
